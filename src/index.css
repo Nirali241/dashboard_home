@@ -1,0 +1,9 @@
+.index {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    248deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(13, 3, 36, 1) 35%,
+    rgba(57, 142, 159, 1) 100%
+  );
+}

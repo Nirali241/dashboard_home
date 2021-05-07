@@ -1,0 +1,10 @@
+.Multi {
+  margin-top: 3vh;
+  height: 900px;
+
+  background-color: rgb(236, 236, 236);
+  border-radius: 10px;
+}
+.container {
+  padding-top: 5vh;
+}
