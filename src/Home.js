@@ -5,11 +5,11 @@ function Home() {
     return (
         <>
         <div className="home">
-            <div className="row" >
-                <div className="col-sm-12">
-                <div className="card" width= "100vw" >
-                    <div className="card-body" >
-                        <h4 className="card-title">The Staton Children's Education Funds</h4>
+            <div className="row opacity-10" >
+                <div className="col-sm-12 ">
+                <div className="card " width= "100vw" >
+                    <div className="card-body "  >
+                        <h4 className="card-title ">The Staton Children's Education Funds</h4>
                             <p className="card-text">The Standard vcep fund</p>
                     </div>
                 </div>                   
@@ -20,7 +20,7 @@ function Home() {
                     
                         <div className="card-body">
                             <p className="card-title">Available Balance</p>
-                            <h5 className="card-text" >$500,000</h5>
+                            <h5 className="card-text text-info" >$500,000</h5>
                         </div>
                 
                 </div>
@@ -28,7 +28,7 @@ function Home() {
                 
                         <div className="card-body">
                             <p className="card-title">Current Balance</p>
-                            <h5 className="card-text" >$536,000</h5>
+                            <h5 className="card-text text-info" >$536,000</h5>
                         </div>
                 
                 </div>
@@ -36,7 +36,7 @@ function Home() {
                 
                         <div className="card-body">
                             <p className="card-title">Grant Made</p>
-                            <h5 className="card-text">$139,000</h5>
+                            <h5 className="card-text text-info">$139,000</h5>
                         </div>
                     
                 </div>
@@ -78,20 +78,20 @@ function Home() {
                 <ul class="nav flex-column">
                 
                     <li class="nav-item">
-                            <h5 className="card-title">$500000</h5>
-                            <p className="card-text">Wire Transfer </p>
+                            <h5 className="card-title text-secondary">$500000</h5>
+                            <p className="card-text text-secondary">Wire Transfer </p>
                     </li>
                     <li class="nav-item">
-                            <h5 className="card-title">$563533</h5>
-                            <p className="card-text">Balance</p>
+                            <h5 className="card-title text-secondary">$563533</h5>
+                            <p className="card-text text-secondary">Balance</p>
                     </li>
                     <li class="nav-item">
-                            <h5 className="card-title">Record and Exchange</h5>
-                            <p className="card-text">Grand Made</p>
+                            <h5 className="card-title text-secondary">Record and Exchange</h5>
+                            <p className="card-text text-secondary">Grand Made</p>
                     </li>
                     <li class="nav-item">
-                            <h5 className="card-title">$500000</h5>
-                            <p className="card-text">Data details</p>
+                            <h5 className="card-title text-secondary">$500000</h5>
+                            <p className="card-text text-secondary">Data details</p>
                     </li>
                     </ul>
                 </div>
